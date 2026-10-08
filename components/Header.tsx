@@ -1,0 +1,25 @@
+export function Header() {
+  return (
+    <header className="flex items-center justify-between border-b border-zinc-800 bg-zinc-900/40 px-4 py-3 lg:px-6">
+      <div className="flex items-baseline gap-3">
+        <h1 className="text-sm font-semibold tracking-tight text-zinc-100">
+          ChronoWalk · World Lab
+        </h1>
+        <span className="hidden border-l border-zinc-800 pl-3 text-[11px] uppercase tracking-wider text-zinc-500 sm:inline">
+          Manhattan evidence portals
+        </span>
+      </div>
+      <div className="flex items-center gap-4">
+        <a
+          href="/"
+          className="text-[11px] uppercase tracking-wider text-zinc-400 transition hover:text-zinc-100"
+        >
+          ← Timeline
+        </a>
+        <span className="hidden text-[11px] uppercase tracking-wider text-zinc-500 sm:inline">
+          Powered by Reactor
+        </span>
+      </div>
+    </header>
+  );
+}

@@ -1,0 +1,49 @@
+{
+  "id": "penn-station-1924",
+  "name": "Penn Station · 1924",
+  "description": "Walk through the monumental waiting room of the original Pennsylvania Station, grounded in a Library of Congress photograph.",
+  "image": {
+    "label": "Original Pennsylvania Station main waiting room",
+    "src": "/chronowalk/penn-station-waiting-room-1910.jpg"
+  },
+  "provenance": {
+    "sourceLabel": "Library of Congress · Detroit Publishing Company Collection",
+    "sourceUrl": "https://www.loc.gov/pictures/resource/det.4a19906/",
+    "created": "Between 1905 and 1915",
+    "rights": "No known restrictions on publication"
+  },
+  "scene": {
+    "base": {
+      "default": "A historically grounded, photorealistic reconstruction of the main waiting room inside the original Pennsylvania Station in New York City, circa 1924. Preserve the reference image's monumental Beaux-Arts architecture: an immense Roman-inspired coffered barrel vault, cream travertine stone walls, colossal fluted Corinthian columns, broad stone stairways, tall arched windows, dark bronze globe lamps, and a vast polished stone floor. Soft daylight pours through the high windows with warm pools of lamplight below. A modest number of travelers in accurate 1920s coats, suits, cloche hats, and brimmed hats move naturally through the hall while uniformed railway porters assist with period luggage. Subtle, restrained colorized-documentary realism with stone, bronze, cream, charcoal, and muted fabric tones. The environment is 1924 only: no modern signage, no digital screens, no fluorescent lighting, no contemporary clothing, no modern advertisements, no present-day Penn Station, and no Madison Square Garden. Keep the architecture stable, rectilinear, grand, and continuous as the camera moves."
+    },
+    "camera": {
+      "default": {
+        "static": "First-person eye-level view of a traveler standing inside the waiting room, with no visible avatar, body, hands, or camera rig. The camera remains still and level; look input turns naturally from the traveler's fixed position while the monumental room remains geometrically stable.",
+        "dynamic": "First-person eye-level walking view with no visible avatar, body, hands, or camera rig. The camera advances smoothly at a measured walking pace, maintaining an upright horizon and preserving the scale and geometry of the columns, arches, stairs, lamps, and floor."
+      }
+    },
+    "movement": {
+      "default": {
+        "static": "The viewpoint is stationary on the polished stone floor. Travelers and porters continue subtle natural movement in the distance while the architecture and nearby lamps remain fixed.",
+        "dynamic": "The viewpoint walks calmly across the broad stone floor through open public space, passing the bronze globe lamps and approaching the grand stairs and colonnades without colliding with people or architecture."
+      }
+    },
+    "events": [
+      {
+        "name": "Rush Hour",
+        "detail": "The 1924 departure rush begins: more period-dressed travelers cross the hall in orderly streams, porters roll wooden luggage carts, and families gather beneath the bronze globe lamps, while all architecture remains unchanged."
+      },
+      {
+        "name": "Quiet Morning",
+        "detail": "The waiting room becomes calm and spacious in the early morning, with only a few travelers and railway porters moving quietly through pale window light, while all architecture remains unchanged."
+      },
+      {
+        "name": "Evening Lamps",
+        "detail": "Early evening settles outside the arched windows and the historic bronze globe lamps glow warmly across the stone floor, with subdued 1920s travelers moving through the hall; no modern lighting appears."
+      }
+    ],
+    "jumpPrompt": "The first-person camera rises briefly as the traveler makes a small natural hop, then settles back to normal eye level without changing the historic architecture.",
+    "crouchPrompt": "The first-person camera lowers smoothly toward the polished stone floor as the traveler crouches, preserving the room's scale and geometry.",
+    "standPrompt": "The first-person camera rises smoothly back to normal standing eye level, preserving the room's scale and geometry."
+  }
+}
